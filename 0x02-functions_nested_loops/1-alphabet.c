@@ -1,11 +1,7 @@
 #include"main.h"
 
 /**
- * main - Entry point
- *
- * Description: print_alphabet all in lowercase
- *
- * Return: Always 0 (success)
+ * print_alphapet - utilizes on the _putchar function to print the alphapet a - z
 */
 
 void print_alphabet(void)
