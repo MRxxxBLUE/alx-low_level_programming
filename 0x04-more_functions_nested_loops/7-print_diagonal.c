@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_diagonal - print diagonal line
+ * print_diagonal - print a diagonal line
  *
  * @n: number of times the \ character
  *	should be printed
@@ -19,7 +19,7 @@ void print_diagonal(int n)
 		{
 			for (space = 1; space <= postn; space++)
 				_putchar(' ');
-			_putchar(92);
+			_putchar(92); /*is equal to '/' char*/
 			_putchar('\n');
 		}
 	}
