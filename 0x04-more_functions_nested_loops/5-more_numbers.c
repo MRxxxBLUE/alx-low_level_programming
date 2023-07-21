@@ -4,7 +4,7 @@
  * more_numbers - print ten times from 0 - 14
  *		using _putchar three times only
  *
- * Return: Always 0 (success)
+ * return: always 0 (success)
 */
 
 void more_numbers(void)
@@ -21,7 +21,7 @@ void more_numbers(void)
 				_putchar(1 + 48);
 				num = count % 10;
 			}
-			_putchar(num = 48);
+			_putchar(num + 48);
 		}
 		_putchar('\n');
 	}
