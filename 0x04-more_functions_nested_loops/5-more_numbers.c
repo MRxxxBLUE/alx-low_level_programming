@@ -4,7 +4,7 @@
  * more_numbers - print ten times from 0 - 14
  *		using _putchar three times only
  *
- * return: always 0 (success)
+ * Return: Always 0 (success)
 */
 
 void more_numbers(void)
