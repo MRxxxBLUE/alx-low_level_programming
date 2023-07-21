@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_square - print a square using the character 35
+ * print_square - print a square using the character #
  *
  * @size: is the size of the square
  *
@@ -15,7 +15,7 @@ void print_square(int size)
 	for (row = 1; row <= size; row++)
 	{
 		for (column = 1; column <= size; column++)
-			_putchar('35');
+			_putchar('#');
 		_putchar('\n');
 	}
 }
