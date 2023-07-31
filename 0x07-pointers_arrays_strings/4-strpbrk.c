@@ -15,7 +15,7 @@ char *_strpbrk(char *s, char *accept)
 	ser = 0;
 	while (s[ser] != '\0')
 	{
-		ser = 0;
+		chh = 0;
 		while (accept[chh] != '\0')
 		{
 			if (accept[chh] == s[ser])
@@ -25,7 +25,7 @@ char *_strpbrk(char *s, char *accept)
 			}
 			chh++;
 		}
-		ser++
+		ser++;
 	}
 
 	return (0);
